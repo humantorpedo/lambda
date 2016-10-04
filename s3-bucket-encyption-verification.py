@@ -1,4 +1,4 @@
-# This file assumes that you have a role that can read from all S3 buckets
+# This script will iterate through all of your S3 buckets (assuming the role permissions are correct) and tell you if there is no policy associated with the bucket that enforces SSE
 
 import boto3
 import botocore
